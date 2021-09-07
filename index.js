@@ -7,4 +7,4 @@
  *   stack@lebron.technology
  */
 
-module.exports = /^([\w_\.\-\+])+\@([\w\-]+\.)+([\w]{2,10})+$/;
+module.exports = /^([\w_\.\-\+])+\@([\w\-]+\.)+[\w]{2,}$/;
